@@ -6,6 +6,8 @@ import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
 import Booking from "../Pages/Booking/Booking";
 
+
+
 export const router=createBrowserRouter([
     {
         path:"/",
@@ -30,7 +32,7 @@ export const router=createBrowserRouter([
             {
                 path:"/booking",
                 element:<Booking/>
-            },
+            }
         ]
     }
 ])

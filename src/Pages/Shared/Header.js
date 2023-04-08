@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assests/360_F_338962955_xIfn0BEb3d8goIIqMpGl6SzOuH4ZPQQC-removebg-preview.png';
 
+
 const Header = () => {
+
     const [navbar, setNavbar] = useState(false);
+
     return (
         <nav className='w-full fixed bg-transparent backdrop-brightness-50 z-10 ' >
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -15,7 +18,7 @@ const Header = () => {
                         <Link to="/">
                             <div className='flex items-center'>
                                 <img src={logo} className="w-24 rounded-full" alt="" />
-                                
+
                             </div>
                         </Link>
 
@@ -77,33 +80,6 @@ const Header = () => {
                             <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
                                 <Link to='/contact' >Contact</Link>
                             </li>
-
-                            {/* {user?.uid ?
-
-                                <>
-                                    <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                        <Link onClick={handleLogOut} >Log Out</Link>
-                                    </li>
-                                    <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                        <Link >
-                                            <div className="tooltip tooltip-bottom" data-tip={user?.displayName ? user?.displayName : "User"}>
-                                                <button ><img className='rounded-full w-10' src={user?.photoURL ? user?.photoURL : <FaUserCircle></FaUserCircle>} alt="" /></button>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                </>
-                                :
-                                <>
-                                    <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                        <Link to="/login">Log In</Link>
-                                    </li>
-                                    <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                        <Link to="/register">Sign Up</Link>
-                                    </li>
-                                </>
-
-                            } */}
-
 
                         </ul>
 

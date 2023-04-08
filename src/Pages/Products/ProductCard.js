@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const ProductCard = ({product}) => {
-    const {item,price,img}=product
+    const {item,price,img}=product;
+
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import HomeBanner from './HomeBanner';
 import Section2 from './Section2';
 import Subscribe from './Subscribe';
@@ -8,6 +8,7 @@ import GetOffer from './GetOffer';
 import { FadeIn } from 'react-slide-fade-in';
 
 const Home = () => {
+
     return (
         <div className='flex flex-col gap-32'>
             <HomeBanner />

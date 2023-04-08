@@ -6,7 +6,7 @@ import Button from '../../Components/Button';
 const GetOffer = () => {
     return (
         <div >
-            <h3 className='text-4xl text-primary text-center mb-16 font-bold my-5'>Dont Miss Today's Deal!</h3>
+            <h3 className='text-4xl text-primary text-center mb-16 font-bold my-5'>Dont Miss Today's <br /> Super Deal</h3>
             <div style={{ backgroundImage: `url(${smallVeg})`, backgroundRepeat: "no-repeat", height: "80vh", backgroundPosition: "center", backgroundSize: "cover" }}>
                 <div className='backdrop-brightness-50 text-white flex justify-evenly items-center h-full w-full'>
                     <div className='w-1/3'>
