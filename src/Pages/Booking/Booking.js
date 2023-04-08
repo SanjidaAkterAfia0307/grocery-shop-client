@@ -5,7 +5,7 @@ import dutch from '../../assests/logos/dutch.png';
 import paypal from '../../assests/logos/Paypal-logo.png';
 const Booking = () => {
     return (
-        <div className='md:pt-36'>
+        <div className='pt-36'>
             <div className='lg:w-2/5 mx-auto shadow-xl p-12 rounded-lg'>
 
                 <form className=''>
