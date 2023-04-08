@@ -6,7 +6,7 @@ import paypal from '../../assests/logos/Paypal-logo.png';
 const Booking = () => {
     return (
         <div className='md:pt-36'>
-            <div className='w-2/5 mx-auto shadow-xl p-12 rounded-lg'>
+            <div className='lg:w-2/5 mx-auto shadow-xl p-12 rounded-lg'>
 
                 <form className=''>
                     <div className='flex my-4 gap-24'>
