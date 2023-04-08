@@ -9,7 +9,7 @@ const Subscribe = () => {
                     <h3 className='text-4xl font-bold my-5'>Subscribe For Discount!</h3>
                     <p>Lorem ipsum suscipit quam delectus, sint commodi eos quo voluptatibus illum iusto soluta harum necessitatibus quae, consequuntur adipisci provident! Sint, recusandae.</p>
                     <div className='flex'>
-                        <input type="email" name="email" id="" className=' w-[750px] rounded-s-md focus:outline outline-offset-1 outline-primary border-none py-4 px-2' />
+                        <input type="email" name="email" id="" className=' lg:w-[750px] rounded-s-md focus:outline outline-offset-1 outline-primary border-none py-4 px-2' />
                         <button type="submit" className='bg-primary rounded-e-md font-bold hover:bg-secondary p-4'>Subscribe Now</button>
                     </div>
                 </div>

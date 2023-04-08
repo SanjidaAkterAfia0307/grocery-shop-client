@@ -9,9 +9,6 @@ const Header = () => {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <label htmlFor="dashboard-drawer" tabIndex={2} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
 
                         {/* logo */}
 
@@ -72,10 +69,13 @@ const Header = () => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                <Link to="/blog">Blog</Link>
+                                <Link to="/products">Products</Link>
                             </li>
                             <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
-                                <Link to='/dashboard' >Dashboard</Link>
+                                <Link to='/about' >About</Link>
+                            </li>
+                            <li className="text-white font-semibold text-xl hover:text-secondary hover:underline">
+                                <Link to='/contact' >Contact</Link>
                             </li>
 
                             {/* {user?.uid ?
